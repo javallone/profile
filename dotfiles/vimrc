@@ -20,10 +20,10 @@ set directory=~/.vim/backup
 " Show trailing spaces
 set list listchars=trail:·,tab:\ \ 
 
-" 4 space tabs by default
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
+" 2 space tabs by default
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set smarttab
 
