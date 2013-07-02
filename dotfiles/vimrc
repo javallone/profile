@@ -2,6 +2,9 @@ syntax on
 
 set encoding=utf-8
 
+set wildmode=longest:full " Complete to longest common string, then show menu
+set wildmenu " Enable completion menu
+
 set backspace=indent,eol,start
 set number " Show line numbers
 set laststatus=2 " Always show the status line
