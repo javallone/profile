@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 syntax on
 
 set encoding=utf-8
@@ -8,7 +10,6 @@ set wildmenu " Enable completion menu
 set backspace=indent,eol,start
 set number " Show line numbers
 set laststatus=2 " Always show the status line
-set showtabline=2 " Always show the tab bar
 set spell spelllang=en_us
 
 set incsearch " Search as you type
@@ -34,6 +35,8 @@ set autoindent
 set smartindent
 
 filetype plugin on
+
+let g:syntastic_javascript_checkers = ['jsl']
 
 if has("gui_running")
     set guioptions=egmrLt
