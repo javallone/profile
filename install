@@ -1,4 +1,4 @@
-PROFILE_REPO="https://github.com/javallone/profile.git"
+PROFILE_REPO="git@github.com:javallone/profile.git"
 PROFILE_PATH=".profile.d"
 
 cd "$HOME"
