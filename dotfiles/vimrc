@@ -18,6 +18,8 @@ set hlsearch " Highlight search hits
 set ruler " Show the ruler in the footer
 set cursorline " Highlight line the cursor is on
 
+set backupcopy=yes " Fix for Karma removing spec files on save
+
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
