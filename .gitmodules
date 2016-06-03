@@ -4,3 +4,6 @@
 [submodule "dotfiles/vim/bundle/predawn.vim"]
 	path = dotfiles/vim/bundle/predawn.vim
 	url = https://github.com/juanedi/predawn.vim.git
+[submodule "dotfiles/vim/bundle/editorconfig-vim"]
+	path = dotfiles/vim/bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
