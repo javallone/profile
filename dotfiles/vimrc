@@ -1,4 +1,11 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+Plug 'juanedi/predawn.vim'
+Plug 'scrooloose/syntastic'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'vim-scripts/vcscommand.vim'
+
+call plug#end()
 
 syntax on
 
