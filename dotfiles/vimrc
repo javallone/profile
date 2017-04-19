@@ -4,6 +4,7 @@ Plug 'juanedi/predawn.vim'
 Plug 'scrooloose/syntastic'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-scripts/vcscommand.vim'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
