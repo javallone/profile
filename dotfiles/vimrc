@@ -62,7 +62,7 @@ if has("gui_running")
     set lines=40 columns=125
 endif
 
-colorscheme predawn
+silent! colorscheme predawn
 
 " Set highlighting for spelling errors
 highlight clear SpellBad
