@@ -5,6 +5,7 @@ Plug 'scrooloose/syntastic'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-scripts/vcscommand.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
